@@ -1,0 +1,8 @@
+unit ustore;
+
+interface
+store=class;
+
+implementation
+
+end.

@@ -1,0 +1,8 @@
+unit ucashier;
+
+interface
+cashier=class;
+
+implementation
+
+end.

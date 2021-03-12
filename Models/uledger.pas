@@ -1,0 +1,8 @@
+unit uledger;
+
+interface
+ledger=class;
+
+implementation
+
+end.

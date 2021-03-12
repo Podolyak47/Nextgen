@@ -1,0 +1,8 @@
+unit uregister;
+
+interface
+register=class;
+
+implementation
+
+end.
