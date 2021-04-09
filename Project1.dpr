@@ -16,7 +16,8 @@ uses
   ucashpayment in 'Models\ucashpayment.pas',
   UPayment in 'Models\UPayment.pas',
   UMoney in 'Models\UMoney.pas',
-  UItemID in 'Models\UItemID.pas';
+  UItemID in 'Models\UItemID.pas',
+  UDate in 'Models\UDate.pas';
 
 {$R *.res}
 
