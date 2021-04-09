@@ -1,7 +1,9 @@
 unit ustore;
 
 interface
-store=class;
+type
+store=class
+end;
 
 implementation
 

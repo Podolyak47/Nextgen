@@ -1,7 +1,9 @@
 unit ucashpayment;
 
 interface
-cashpayment=class;
+type
+cashpayment=class
+end;
 
 implementation
 

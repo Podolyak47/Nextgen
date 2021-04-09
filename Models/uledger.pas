@@ -1,8 +1,10 @@
-unit uledger;
+unit ULedger;
 
 interface
-ledger=class;
+ type
+ Ledger = class
 
+ end;
 implementation
 
 end.

@@ -1,8 +1,10 @@
-unit usaleslineitem;
+unit USalesLineItem;
 
 interface
-salesitem=class;
+ type
+ SalesLineItem = class
 
+ end;
 implementation
 
 end.

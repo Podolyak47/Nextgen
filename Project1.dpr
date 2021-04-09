@@ -13,7 +13,10 @@ uses
   uregister in 'Models\uregister.pas',
   ucashier in 'Models\ucashier.pas',
   ucustomer in 'Models\ucustomer.pas',
-  ucashpayment in 'Models\ucashpayment.pas';
+  ucashpayment in 'Models\ucashpayment.pas',
+  UPayment in 'Models\UPayment.pas',
+  UMoney in 'Models\UMoney.pas',
+  UItemID in 'Models\UItemID.pas';
 
 {$R *.res}
 

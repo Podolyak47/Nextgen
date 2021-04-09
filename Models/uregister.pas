@@ -1,8 +1,9 @@
 unit uregister;
 
 interface
-register=class;
-
+type
+register=class
+    end;
 implementation
 
 end.
