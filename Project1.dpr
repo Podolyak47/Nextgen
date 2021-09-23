@@ -2,22 +2,23 @@ program Project1;
 
 uses
   Vcl.Forms,
-  Unit1 in 'Unit1.pas' {Form1},
-  usale in 'Models\usale.pas',
-  usaleslineitem in 'Models\usaleslineitem.pas',
-  uledger in 'Models\uledger.pas',
-  uproductcatalog in 'Models\uproductcatalog.pas',
-  uproductdescription in 'Models\uproductdescription.pas',
-  uitem in 'Models\uitem.pas',
-  ustore in 'Models\ustore.pas',
-  uregister in 'Models\uregister.pas',
-  ucashier in 'Models\ucashier.pas',
-  ucustomer in 'Models\ucustomer.pas',
-  ucashpayment in 'Models\ucashpayment.pas',
-  UPayment in 'Models\UPayment.pas',
-  UMoney in 'Models\UMoney.pas',
-  UItemID in 'Models\UItemID.pas',
-  UDate in 'Models\UDate.pas';
+  Unit1 in 'View\Unit1.pas' {Form1},
+  USale in 'Model\USale.pas',
+  UCashPayment in 'Model\UCashPayment.pas',
+  UCustomer in 'Model\UCustomer.pas',
+  URegister in 'Model\URegister.pas',
+  UCashier in 'Model\UCashier.pas',
+  UItemID in 'Model\UItemID.pas',
+  ULedger in 'Model\ULedger.pas',
+  UProductCatalog in 'Model\UProductCatalog.pas',
+  UProductDescription in 'Model\UProductDescription.pas',
+  USalesLineItem in 'Model\USalesLineItem.pas',
+  UPayment in 'Model\UPayment.pas',
+  UMoney in 'Model\UMoney.pas',
+  UDate in 'Model\UDate.pas',
+  UStore in 'Model\UStore.pas',
+  UFasad in 'Model\UFasad.pas',
+  Unit2 in 'View\Unit2.pas' {Form2};
 
 {$R *.res}
 
@@ -25,5 +26,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.
